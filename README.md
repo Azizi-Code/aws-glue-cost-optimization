@@ -10,8 +10,7 @@ Here's exactly how.*
 First, a quick word in case you're new to this: **AWS Glue** is a service that runs data jobs
 (read some data, change it a bit, write it back out). You pay Glue by the second (with a one-minute
 minimum per run) for the compute it uses. That compute is measured in **DPUs**. Think of a DPU as
-"one chunk of CPU + memory." A job runs on a number of **workers**, and on the worker type most jobs
-use (G.1X) each worker is one DPU. More DPUs running for longer = a bigger bill.
+"one chunk of CPU + memory." More DPUs running for longer = a bigger bill.
 
 Okay. Here's the short version.
 
